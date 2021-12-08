@@ -98,7 +98,7 @@ section.p1footer{
     position: absolute;
     left:50%;
     transform: translateX(-50%);
-    top:-10px;
+    top:-20px;
 }
 section.p1footer .container{
     display:grid;
@@ -118,6 +118,7 @@ section.p1footer .content{
 .Share,.Donate,.volunteer,.learn{
    padding-top: 2px;
 }
+/* page 3 styling */
 section.page3{
     background-color: #354463;
 }
@@ -184,7 +185,7 @@ section.page4{
 section.page4 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 50px 0px;
+    padding: 50px 50px;
 }
 section.page4 .item1{
     width:60%;
@@ -199,13 +200,20 @@ section.page4 .did_u_know{
 }
 section.page4 .issue1,section.page4 .issue2,section.page4 .issue3,section.page4 .issue4{
     background-color: white;
-    width: 60%;
+    /* width: 60%; */
     text-align: center;
 }
+/* section.page4 .issue2_parent{
+    background-color: white;
+    width: 60%;
+    text-align: center;
+} */
+
 section.page4 .issue1-parent{
     position: relative;
+    width: 60%;
 }
-section.page4 .issue1{
+section.page4 .issue1_parentp{
     position: absolute;
 }
 
@@ -391,4 +399,29 @@ footer .contact,footer .links,footer .follow_us{
     border-bottom: 1px groove black;
     padding :5px 0px;
     margin-bottom: 5px;
+}
+footer a{
+    color: black;
+}
+/* page 4 icon setting */
+section.page4 .issue2_parent,section.page4 .issue3_parent,section.page4 .issue4_parent{
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: white;
+    width: 60%;
+}
+section.page4 .issue1_parentp{
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: white;
+    width: 100%;   
+}
+section.page4 a{
+    background-color: #C1F7D5;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+section.page4 .icon{
+    padding: 10px;
 }
