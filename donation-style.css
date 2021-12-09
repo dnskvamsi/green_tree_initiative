@@ -1,0 +1,165 @@
+/* Header Styling */
+header{
+    text-align: center;
+    padding:10px;
+    color: #354463;
+    font-size: 20px;
+}
+/* Section Styling */
+section{
+    background-image: url("Resources/annie-spratt-135307-unsplash.png");
+    background-size: 100% 100%;
+}
+section .container{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding:50px 100px;
+    column-gap: 50px;
+    row-gap: 20px;
+}
+section .message{
+    font-family: Flood std;
+    font-size: 72px;
+    color:white;
+}
+section .form{
+    /* display: grid;
+    grid-template-rows: 2fr 1fr; */
+    /* row-gap: 30px; */
+    background-color: #354463;
+    color:white;
+    width: 80%;
+    padding: 50px 0px;
+}
+
+
+/* Form styling */
+form{
+    padding:0px 50px;
+}
+form input,select{
+    width: 100%;
+    background-color: #354463;
+    border:0px;
+    border-bottom: 2px solid #C1F7D5;
+}
+form label{
+    text-transform: uppercase;
+    letter-spacing: 0.56px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+form .item1_container,form .item3_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+form .state_parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+form .y_info{
+    display: grid;
+    grid-row: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+form .expiration_parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+form .cinfo_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+form .statement button{
+    float: right;
+    background-color: #C1F7D5;
+    color:#354463;
+    padding:10px 30px;
+    border-radius: 20px;
+}
+form .p_info{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+form a{
+    background-color: #354463;
+    color: #C1F7D5;
+    /* padding:20px 30px; */
+    /* font-size: 2px; */
+    font-weight: lighter;
+}
+form .go_back{
+    align-content:center;
+}
+form .statement{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+/* Footer Styling */
+footer{
+    background-color: white;
+    color: #354463;
+}
+footer .branding{
+    color: #354463;
+    font-size: 20px;
+    font-weight: bold;   
+}
+footer .container{
+    padding:100px 100px 50px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+
+}
+footer .statement_container{
+    color:black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:Flood std; 
+    letter-spacing: 0.6px;
+    font-size: 30px;
+    text-align: right;
+} 
+footer .contact,footer .links,footer .follow_us{
+    border-bottom: 1px groove black;
+    padding :5px 0px;
+    margin-bottom: 5px;
+}
+footer a{
+    color: black;
+}
+@media screen and (max-width: 800px) {
+    footer .container{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 50px;
+    }
+    footer .branding{
+        grid-column-start: 1;
+        grid-row: 1 /span 2;
+    }
+  }
+@media screen and (max-width: 600px) {
+    footer .container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap:30px;
+        row-gap: 50px;
+        padding:100px 30px;
+    }
+    footer .branding{
+        grid-column-start:1;
+        grid-row:1/span 1;
+    }
+    footer .statement_container{
+        grid-row-start: 3;
+        grid-column-start: 2;
+        text-align: left;
+    }
+}
