@@ -12,14 +12,14 @@ section{
 }
 section .container{
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    padding:50px 100px;
-    column-gap: 50px;
-    row-gap: 20px;
+    grid-template-columns: auto auto;
+    padding:10vh 10vw;
+    column-gap: 6vh;
+    row-gap: 10vw;
 }
 section .message{
     font-family: Flood std;
-    font-size: 72px;
+    font-size: 4rem;
     color:white;
 }
 section .form{
@@ -35,7 +35,7 @@ section .form{
 
 /* Form styling */
 form{
-    padding:0px 50px;
+    padding:0px 6vw;
 }
 form input,select{
     width: 100%;
@@ -134,6 +134,24 @@ footer a{
     color: black;
 }
 @media screen and (max-width: 800px) {
+
+
+    /* Section Tablet Styling */
+    section .form{
+        width: 100%;
+    }
+    section .container {
+        grid-template-columns: none;
+        grid-template-rows: auto auto;
+        row-gap: 6vh;
+    }
+
+    section .message{
+        grid-row: 1/span 1;
+    }
+
+    /* Footer tablet Styling */
+
     footer .container{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -145,7 +163,14 @@ footer a{
         grid-row: 1 /span 2;
     }
   }
+
+
 @media screen and (max-width: 600px) {
+
+
+    /* Footer Mobile Styling */
+
+
     footer .container{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
