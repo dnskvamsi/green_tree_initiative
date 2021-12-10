@@ -250,7 +250,11 @@ section.page4 .heading_d{
     left:30px;
     top:-15px;
 }
+
+
 /* page 4 icon setting */
+
+
 section.page4 .issue2_parent,section.page4 .issue3_parent,section.page4 .issue4_parent{
     display:grid;
     grid-template-columns: 4fr 1fr;
@@ -274,6 +278,8 @@ section.page4 .icon{
 }
 
 /* pase5 styling */
+
+
 section.page5 .container{
     padding:100px 50px;
     position:relative;
@@ -283,7 +289,7 @@ section.page5 .content{
     color: white;
     padding:30px 50px;
     width:30%;
-    margin-bottom: 50px;
+    margin-bottom: 5vh;
 }
 /* section.page5 .heading_img{
     background-color: #354463;
@@ -305,8 +311,8 @@ section.page5 .heading_img{
 }
 section.page5 .content-parent{
     position:absolute;
-    top:200px;
-    left:250px;
+    top:30vh;
+    left:30%;
 }
 
 /* page 6  Styling */
@@ -384,7 +390,7 @@ section.page6 .item2 .img{
 section.page6 .item3 .no,section.page6 .item2 .no{
     position: absolute;
     top:-2vh;
-    left:2vw;
+    left:30%;
     display:none;
 }
 
@@ -737,6 +743,8 @@ footer a{
 
 
     /* Section Page 5 Mobile Styling */
+
+
     section.page5 .container{
         position:unset;
         display: grid;
@@ -764,6 +772,7 @@ footer a{
     }
     section.page6 .message {
        grid-template-rows: 2fr 2fr 1fr;
+       text-align: center;
     }
     section.page6 .item3 .message{
        row-gap: 3vh;
