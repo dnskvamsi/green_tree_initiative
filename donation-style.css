@@ -7,20 +7,21 @@ header{
 }
 /* Section Styling */
 section{
-    background-image: url("Resources/annie-spratt-135307-unsplash.png");
+    background-image: url("Resources/annie-spratt-427340-unsplash-(1).png");
     background-size: 100% 100%;
 }
 section .container{
     display: grid;
     grid-template-columns: auto auto;
-    padding:10vh 10vw;
+    padding:10vh 6vw;
     column-gap: 6vh;
     row-gap: 10vw;
 }
 section .message{
     font-family: Flood std;
-    font-size: 4rem;
+    font-size: 3rem;
     color:white;
+    text-transform: uppercase;
 }
 section .form{
     /* display: grid;
@@ -99,7 +100,9 @@ form .statement{
     display: grid;
     grid-template-rows: 2fr 1fr;
 }
+
 /* Footer Styling */
+
 footer{
     background-color: white;
     color: #354463;
@@ -143,11 +146,14 @@ footer a{
     section .container {
         grid-template-columns: none;
         grid-template-rows: auto auto;
+        padding:10vh 10vw;
         row-gap: 6vh;
     }
 
     section .message{
         grid-row: 1/span 1;
+        text-transform: uppercase;
+        text-align: center;
     }
 
     /* Footer tablet Styling */
