@@ -691,6 +691,9 @@ footer a{
 
     /* Section page1 Mobile styling */
 
+    section.page1 .content{
+        text-align: center;
+    }
 
     section.page1 .issue{
         /* width:80%; */
@@ -698,6 +701,14 @@ footer a{
     }
 
     /* Sction page 3 MObile styling */
+
+    section.page3 .item1{
+        margin: auto;
+    }
+
+    section.page3 .item2 {
+        text-align: center;
+    }
 
     section.page3 .img {
         /* width: fit-content; */
@@ -712,10 +723,13 @@ footer a{
 
     section.page3 .heading_parent {
         grid-row-start: 1;
+        text-align: center;
     }
     section.page3 div.button {
         grid-row-start: 2;
         grid-column-start: 1;
+        margin: auto;
+        padding-left: 0px;
     }
 
     /* section page4 MObile styling */
@@ -740,7 +754,9 @@ footer a{
         transform: translate(-50%,0%);
     }
 
-
+    section.page4 .item1{
+        margin: auto;
+    }
 
     /* Section Page 5 Mobile Styling */
 
@@ -759,6 +775,9 @@ footer a{
 
     /* section Page6 Styling  */
 
+    section.page6 .item1{
+        text-align: center;
+    }
 
     section.page6 .item2{
         grid-template-columns: none;
