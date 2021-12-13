@@ -693,6 +693,7 @@ footer a{
 
     section.page1 .content{
         text-align: center;
+        margin: auto;
     }
 
     section.page1 .issue{
@@ -708,6 +709,7 @@ footer a{
 
     section.page3 .item2 {
         text-align: center;
+        padding-bottom: 30px;
     }
 
     section.page3 .img {
